@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Piedra Papel Tijeras</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <a href=index.html><header>
+      <h1>Piedra Papel Tijeras</h1>
+    </header></a>
+    <div class="menu">
+      <a href=""><div class="opcionMenu" id="VectorArcade">
+        VectorArcade 🎮
+      </div></a>
+      <a href="about.html"><div class="opcionMenu" id="about">
+        Más informacion
+      </div></a>
+    </div>
+    <hr>
+    <div class="tabla-puntos">
+      <div id="boton-usuario" class="boton-index">Tu</div>
+      <div id="boton-ordenador" class="boton-index">Pc</div>
+      <span id="puntos-usuario">0</span>:<span id="puntos-ordenador">0</span>
+    </div>
+    <div class="resultado">
+      <p>¡Que empieze el Juego!</p>
+    </div>
+    <div class="opciones">
+      <div class="opcion" id="r">
+        <img src="imagenes/piedra.png" width="150px" height="150px" alt="">
+      </div>
+      <div class="opcion" id="p">
+        <img src="imagenes/papel.png" width="150px" height="150px" alt="">
+      </div>
+      <div class="opcion" id="t">
+        <img src="imagenes/tijera.png" width="150px" height="150px" alt="">
+      </div>
+    </div>
+    <div class="racha"><p id="rachap">Racha de victorias: 🔥 0 🔥</p></div>
+    <div class="record"><p id="recordp">Tu record es: 0</p></div>
+    <script src="app.js"></script>
+  </body>
+</html>

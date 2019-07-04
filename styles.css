@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+* {
+  font-family: Asap, sans-serif;
+  background-color: #07111D;
+}
+
+header{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+#TituloImagen{
+  margin: 0px 0px;
+  padding: 0;
+}
+.menu{
+  background-color: #07111D;
+  color: white;
+  margin-bottom: 4px;
+  border: 4px solid white;
+}
+.opcionMenu{
+  color: white;
+  margin: 10px 10px;
+  display: inline-block;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.opcionMenu:hover{
+  cursor: pointer;
+  color: #6fa5fc;
+}
+.contenido{
+  background-color: #07111D;
+}
+.contenido > h1{
+  color: white;
+  margin-left: 50px;
+}
+.contenido > p{
+  color: #07111D;
+}
+.post-container{
+  margin-left: 70px;
+  margin-bottom: 20px;
+  color: white;
+}
+.post-titulo{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.post{
+  font-family: Montserrat, sans-serif;
+  margin-left: 3px;
+}
+.post > p{
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-right: 200px;
+}
+#footer{
+  padding: 15px 0;
+  margin-left: 80px;
+}
+#footer h3{
+  color:white;
+  text-transform: uppercase;
+}
+#footer p{
+  color:white;
+
+}
+.column{
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  cursor: pointer;
+  color: #6fa5fc;
+}
+#credito{
+  background-color: white;
+}
+.quiz{
+  background-color: #C8C8C8;
+  color: black;
+}
+.quiz >p{
+  background-color: #C8C8C8;
+  color: black;
+  margin-left: 30px;
+}
+.quizzz{
+  background-color: white;
+  color: black;
+}
+.quizzz > option{
+  background-color: white;
+  color: black;
+}
+#bruh{
+  background-color: white;
+}
+#submit{
+  background-color: white;
+}
